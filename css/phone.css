@@ -466,8 +466,8 @@
     }
     .dark::before{ 
         content: ''; 
-        width: 20px;
-        height: 30px; 
+        width: 15px;
+        height: 20px; 
         background-color: #facd89;
         position: absolute; 
         left: 0;
@@ -512,6 +512,7 @@
     
     .indution_img{ height: 20px;}
     .indution_text{
+        white-space: nowrap;
         margin-left: 10px;
         font-size: 0.7rem;
     }

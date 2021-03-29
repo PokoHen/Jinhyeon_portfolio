@@ -426,8 +426,8 @@
     }
     .dark::before{ 
         content: ''; 
-        width: 20px;
-        height: 30px; 
+        width: 18px;
+        height: 26px; 
         background-color: #facd89;
         position: absolute; 
         left: 0;
