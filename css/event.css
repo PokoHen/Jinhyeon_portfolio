@@ -1,0 +1,47 @@
+@-webkit-keyframes upDown{
+    0%{
+        top: 20px;
+    }
+    50%{
+        top: 30px;
+    }
+    100%{
+        top: 20px;
+    }
+}
+
+@-webkit-keyframes upDown_note{
+    0%{
+        top: 15px;
+    }
+    50%{
+        top: 20px;
+    }
+    100%{
+        top: 15px;
+    }
+} 
+
+@-webkit-keyframes upDown_tab{
+    0%{
+        top: 10px;
+    }
+    50%{
+        top: 15px;
+    }
+    100%{
+        top: 10px;
+    }
+} 
+
+@-webkit-keyframes upDown_tabS{
+    0%{
+        top: 5px;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top: 5px;
+    }
+} 
