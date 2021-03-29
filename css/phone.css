@@ -476,7 +476,7 @@
     .prot_none{ display: none; }
     .prot_active{ display: block; }
     .prot_box_active{ display: block; }
-
+    .prot_tool>p.detail_sub{ white-space: nowrap; }
     .trophy_wrap{
         width: 100%;
         height: 40px;
