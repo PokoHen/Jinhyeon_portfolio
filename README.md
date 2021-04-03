@@ -8,7 +8,8 @@
   - Javascript (Jquery)
  
 # 디자인 툴
-  - PhotoShop, Illustrator
+  - PhotoShop
+  - Illustrator
  
 # 셜명
   - 나의 열정을 축구에 빗대어 표현했습니다.
