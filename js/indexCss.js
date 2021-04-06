@@ -41,7 +41,7 @@ $(document).ready(function(){
         $('.section_5').css({ height: wh-140, minHeight: 668, maxHeight: 700, });
         $('.avail_skill_box').css({ height: ($('section').height() * 0.45), maxHeight: 400, });
         skill_pc();
-    }else if(ww < 768 && ww >= 500){
+    }else if(ww < 768 && ww >= 480){
         $('section').css({ height: wh, minHeight: 768, maxHeight: wh, });
         $('.section_1').css({ height: wh, minHeight: 512, maxHeight: wh, });
         $('.section_5').css({ height: wh-100, minHeight: 668, maxHeight: wh-100, });
@@ -49,7 +49,7 @@ $(document).ready(function(){
         skill_tab();
     }else{
         $('section').css({ height: wh, minHeight: wh, maxHeight: wh, });
-        $('.section_4').css({ height: wh+100, minHeight: wh+100, maxHeight: wh+100, });
+        $('.section_4').css({ height: wh+100, minHeight: wh, maxHeight: wh+100, });
         $('.section_5').css({ height: wh-60, minHeight: 607, maxHeight: 607, });
         $('.avail_skill_box').css({ height: ($('section').height() * 0.7), maxHeight: ($('section').height() * 0.45), });
         skill_tab();
@@ -80,7 +80,7 @@ $(document).ready(function(){
             $('.section_5').css({ height: wh-140, minHeight: 668, maxHeight: 700, });
             $('.avail_skill_box').css({ height: ($('section').height() * 0.45), maxHeight: 400, });
             skill_pc();
-        }else if(ww < 768 && ww >= 500){
+        }else if(ww < 768 && ww >= 480){
             $('section').css({ height: wh, minHeight: 768, maxHeight: wh, });
             $('.section_1').css({ height: wh, minHeight: 512, maxHeight: wh, });
             $('.section_5').css({ height: wh-100, minHeight: 668, maxHeight: wh-100, });
@@ -89,6 +89,7 @@ $(document).ready(function(){
         }else{
             $('section').css({ height: wh, minHeight: 667, maxHeight: wh, });
             $('.section_1').css({ height: wh, minHeight: wh, maxHeight: wh, });
+            $('.section_4').css({ height: wh+100, minHeight: wh, maxHeight: wh+100, });
             $('.section_5').css({ height: wh-60, minHeight: 607, maxHeight: 607, });
             $('.avail_skill_box').css({ height: ($('section').height() * 0.7), maxHeight: ($('section').height() * 0.45), });
             skill_tab();

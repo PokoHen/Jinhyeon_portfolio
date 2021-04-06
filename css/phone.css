@@ -1,4 +1,4 @@
-@media all and (max-width: 499.9px){
+@media all and (max-width: 479.9px){
     .wrap{ width: 100%; overflow: hidden; }
     header, section, footer{ width: 100%; position: relative;  color: #0c3649; }
 
