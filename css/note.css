@@ -405,7 +405,7 @@
         justify-content: space-between;
     }
 
-    .trophy_box{ width: 6%; height: 50px; position: relative; }
+    .trophy_box{ width: 20%; height: 50px; position: relative; display: flex; justify-content: center;}
     .trophy_box>img{ cursor: pointer; height: 120px; position: absolute; top: -110px;}
     .trophy_on, .trophy_disappear{ display: none; }
     .trophy_active{ display: block; }
