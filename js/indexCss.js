@@ -49,7 +49,8 @@ $(document).ready(function(){
         skill_tab();
     }else{
         $('section').css({ height: wh, minHeight: wh, maxHeight: wh, });
-        $('.section_5').css({ height: wh-60, minHeight: wh-60, maxHeight: wh-60, });
+        $('.section_4').css({ height: wh+100, minHeight: wh+100, maxHeight: wh+100, });
+        $('.section_5').css({ height: wh-60, minHeight: 607, maxHeight: 607, });
         $('.avail_skill_box').css({ height: ($('section').height() * 0.7), maxHeight: ($('section').height() * 0.45), });
         skill_tab();
     }
@@ -61,17 +62,17 @@ $(document).ready(function(){
         if( ww >= 1500 ){
             $('section').css({ height: wh, minHeight: 930, maxHeight: 790, maxHeight: wh, });
             $('.section_5').css({ height: wh-100, minHeight: 830, maxHeight: 690, maxHeight: wh-100, });
-            $('.avail_skill_box').css({ height: 500, });
+            $('.avail_skill_box').css({ height: 500, maxHeight: 500, });
             skill_pc();
         }else if(ww < 1500 && ww >= 1200){
             $('section').css({ height: wh, minHeight: 700, maxHeight: 790, });
             $('.section_5').css({ height: wh-100, minHeight: 600, maxHeight: 690, });
-            $('.avail_skill_box').css({ height: ($('section').height() * 0.45), });
+            $('.avail_skill_box').css({ height: ($('section').height() * 0.45), maxHeight: ($('section').height() * 0.45), });
             skill_pc();
         }else if(ww < 1200 && ww >= 1025){
             $('section').css({ height: wh, minHeight: 600, maxHeight: 790, });
             $('.section_5').css({ height: wh-100, minHeight: 500, maxHeight: 690, });
-            $('.avail_skill_box').css({ height: ($('section').height() * 0.45), });
+            $('.avail_skill_box').css({ height: ($('section').height() * 0.45), maxHeight: ($('section').height() * 0.45), });
             skill_pc();
         }else if(ww < 1025 && ww >= 768){
             $('section').css({ height: wh, minHeight: 768, maxHeight: 800, });
