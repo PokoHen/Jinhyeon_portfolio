@@ -35,7 +35,7 @@
         cursor: pointer;
     }
     
-    .ham{ height: 20px; }
+    .ham{ height: 18px; margin-left: -3px; }
     
     /* 메뉴 부분 */
 
@@ -46,12 +46,12 @@
         background-color: #fff;
         border-radius: 50px;
         position: absolute;
-        top: 30px;
+        top: 20px;
         left: 0;
     }
 
     .close_btn{
-        width: 45px;
+        width: 30px;
         height: 45px;
         float: left;
         display: flex;
@@ -61,7 +61,8 @@
     }
 
     img.closeBtn{
-        height: 20px; 
+        height: 15px; 
+        padding-left: 10px;
         transform: rotateX(90deg);
     }
 
@@ -75,7 +76,7 @@
     }
 
     .menu_text>p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         cursor: pointer;
     }
 
