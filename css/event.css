@@ -45,3 +45,14 @@
         top: 5px;
     }
 } 
+
+@-webkit-keyframes scroll_down{
+    0%{
+        top: -5px;
+        opacity: 1;
+    }
+    100%{
+        top: 105px;
+        opacity: 0.1;
+    }
+}

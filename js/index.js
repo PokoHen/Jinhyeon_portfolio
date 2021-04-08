@@ -73,7 +73,7 @@ $(document).ready(function(){
     
     $(window).resize(()=>{ ww = $(window).width(); })
     
-    if(scrTop >= sec_3-300 && ww >= 768 ){
+    if(scrTop >= sec_3-500 && ww >= 768 ){
         up_skill_pc();
     }else if(scrTop >= sec_3-300 && ww < 768){
         up_skill_tab();
