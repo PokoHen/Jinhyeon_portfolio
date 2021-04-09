@@ -7,6 +7,9 @@
   - HTML5 / CSS3 
   - Javascript (Jquery)
  
+# 개발 툴
+  - Brackets
+ 
 # 디자인 툴
   - PhotoShop
   - Illustrator
