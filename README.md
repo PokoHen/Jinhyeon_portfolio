@@ -1,7 +1,11 @@
-# Jinhyeon_portfolio
+# 프로젝트 제목
+  - Jinhyeon_portfolio
 
 # 작업기간
   - 21.02.20 ~ 21.02.26
+
+# 개발 인원
+  - 1명 (개인 프로젝트)
 
 # 개발 언어
   - HTML5 / CSS3 
