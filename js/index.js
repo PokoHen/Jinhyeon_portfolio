@@ -50,8 +50,9 @@ $(document).ready(function(){
         $('.css_skill').animate({ top: '55%', left: '20%', opacity: 1, }, 300);
         $('.js_skill').delay(100).animate({ top: '35%', left: '35%', opacity: 1, }, 300);
         $('.java_skill').delay(200).animate({ top: '10%', left: '50%', opacity: 1, }, 300);
-        $('.ps_skill').delay(300).animate({ top: '55%', left: '60%', opacity: 1, }, 300);
-        $('.ill_skill').delay(400).animate({ top: '35%', left: '75%', opacity: 1, }, 300);
+        $('.ps_skill').delay(300).animate({ top: '55%', left: '55%', opacity: 1, }, 300);
+        $('.ill_skill').delay(400).animate({ top: '55%', left: '75%', opacity: 1, }, 300);
+        $('.xd_skill').delay(500).animate({ top: '10%', left: '70%', opacity: 1, }, 300);
         $('.react_skill').delay(500).animate({ top: 0, opacity: 1, }, 300);
         $('.aws_skill').delay(600).animate({ top: 0, opacity: 1, }, 300);
         $('.oracle_skill').delay(700).animate({ top: 0, opacity: 1, }, 300);
@@ -61,9 +62,10 @@ $(document).ready(function(){
         $('.html_skill').animate({ top: '5%', left: '30%', opacity: 1, }, 300);
         $('.css_skill').animate({ top: '5%', left: '60%', opacity: 1, }, 300);
         $('.js_skill').delay(100).animate({ top: '30%', left: '40%', opacity: 1, }, 300);
-        $('.java_skill').delay(200).animate({ top: '55%', left: '30%', opacity: 1, }, 300);
-        $('.ps_skill').delay(300).animate({ top: '60%', left: '60%', opacity: 1, }, 300);
-        $('.ill_skill').delay(400).animate({ top: '80%', left: '45%', opacity: 1, }, 300);
+        $('.java_skill').delay(200).animate({ top: '53%', left: '30%', opacity: 1, }, 300);
+        $('.ps_skill').delay(300).animate({ top: '58%', left: '60%', opacity: 1, }, 300);
+        $('.ill_skill').delay(400).animate({ top: '82%', left: '60%', opacity: 1, }, 300);
+        $('.xd_skill').delay(500).animate({ top: '80%', left: '30%', opacity: 1, }, 300);
         $('.react_skill').delay(500).animate({ top: 0, opacity: 1, }, 300);
         $('.aws_skill').delay(600).animate({ top: 0, opacity: 1, }, 300);
         $('.oracle_skill').delay(700).animate({ top: 0, opacity: 1, }, 300);

@@ -7,17 +7,19 @@ $(document).ready(function(){
         $('.css_skill').css({ top: '55%', left: '20%', });
         $('.js_skill').css({ top: '35%', left: '35%', }, );
         $('.java_skill').css({ top: '10%', left: '50%', });
-        $('.ps_skill').css({ top: '55%', left: '60%', });
-        $('.ill_skill').css({ top: '35%', left: '75%', });
+        $('.ps_skill').css({ top: '55%', left: '55%', });
+        $('.ill_skill').css({ top: '55%', left: '75%', });
+        $('.xd_skill').css({ top: '10%', left: '70%', });
     }
     
     const skill_tab = function(){
         $('.html_skill').css({ top: '5%', left: '30%', });
         $('.css_skill').css({ top: '5%', left: '60%', });
         $('.js_skill').css({ top: '30%', left: '40%', });
-        $('.java_skill').css({ top: '55%', left: '30%', });
-        $('.ps_skill').css({ top: '60%', left: '60%', });
-        $('.ill_skill').css({ top: '80%', left: '45%', });
+        $('.java_skill').css({ top: '53%', left: '30%', });
+        $('.ps_skill').css({ top: '58%', left: '60%', });
+        $('.ill_skill').css({ top: '82%', left: '60%', });
+        $('.xd_skill').css({ top: '80%', left: '30%', });
     }
     
     if( ww >= 1550 ){

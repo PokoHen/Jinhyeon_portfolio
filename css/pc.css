@@ -312,7 +312,8 @@
     .js_skill{ top: 180px; left: 37%; }
     .java_skill{ top: 100px; left: 52%; }
     .ps_skill{ top: 250px; left: 62%; }
-    .ill_skill{ top: 180px; left: 77%; }
+    .ill_skill{ top: 180px; left: 70%; }
+    .xd_skill{ top: 50px; left: 70%;}
 
     .inter_skill{ margin-top: 20px;}
     .inter_skill>.skill_title{
